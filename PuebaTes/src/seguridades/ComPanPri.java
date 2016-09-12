@@ -244,7 +244,7 @@ public class ComPanPri extends javax.swing.JFrame
     private void mnuMaeComActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mnuMaeComActionPerformed
         maestros.ComMaeCom objMaeCom=new maestros.ComMaeCom();
         dskGen.add(objMaeCom, JLayeredPane.DEFAULT_LAYER);
-        objMaeCom.setVisible(true);
+        objMaeCom.setVisible(false)
     }//GEN-LAST:event_mnuMaeComActionPerformed
 
     /**
